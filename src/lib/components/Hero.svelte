@@ -7,9 +7,11 @@
         <span class="hero-title-serif">Maniyanthara Rajesh</span>
       </h1>
       <p class="hero-subtitle">
-        Builds backend services in <strong>Go</strong> and <strong>PostgreSQL</strong>.
-        Maintains the <strong>noss</strong> package for <strong>Debian</strong>.
-        Won <span class="highlight-count">9</span> hackathons.
+        I build production-ready systems — from <strong>Go</strong> backends
+        and Linux-based kiosk OSes to edge AI and computer vision.
+        I maintain <strong>Debian</strong> packages and have won
+        <span class="highlight-count">9</span> hackathons by turning
+        ambitious ideas into working products.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View Projects</a>

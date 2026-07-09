@@ -31,7 +31,7 @@
   <div class="container">
     <div class="section-header">
       <p class="section-label">Skills</p>
-      <h2>Tools & Technologies</h2>
+      <h2>Technologies I build with</h2>
     </div>
     <div class="skills-grid">
       {#each skillGroups as group}

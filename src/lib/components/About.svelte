@@ -2,7 +2,7 @@
   <div class="container">
     <div class="section-header">
       <p class="section-label">About</p>
-      <h2>Product-focused engineering</h2>
+      <h2>I build ambitious software that actually ships</h2>
     </div>
     <div class="about-grid">
       <div class="about-text">
@@ -11,6 +11,12 @@
           computer vision pipelines. I maintain the <strong>noss</strong>
           RSS package for Debian and ship projects from hackathons
           that actually work.
+        </p>
+        <p>
+          I enjoy taking ideas that seem overly ambitious for a weekend
+          and turning them into products people can use. Most of my
+          projects begin at hackathons, but the interesting work starts
+          after the awards.
         </p>
       </div>
       <div class="about-stats">
