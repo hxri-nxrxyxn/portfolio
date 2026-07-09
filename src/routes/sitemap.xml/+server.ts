@@ -6,6 +6,7 @@ export const GET: RequestHandler = async () => {
 
   const urls = [
     { loc: base, changefreq: 'monthly' as const, priority: '1.0' },
+    { loc: `${base}/llms.txt`, changefreq: 'monthly' as const, priority: '0.3' },
   ];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

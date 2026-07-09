@@ -36,6 +36,7 @@
   <!-- Canonical -->
   <link rel="canonical" href="https://hari.laddu.cc" />
   <link rel="icon" href="/favicon.svg" />
+  <link rel="llms-txt" href="/llms.txt" />
 
   <!-- JSON-LD Structured Data: Person -->
   <script type="application/ld+json">
