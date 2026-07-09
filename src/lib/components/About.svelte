@@ -11,12 +11,6 @@
           My approach is rooted in deep understanding of the full stack — from kernel
           internals to CI/CD pipelines.
         </p>
-        <p>
-          I maintain the <strong>noss</strong> RSS package for Debian and have won
-          <strong>9 hackathons</strong> building everything from kiosk OSes to EV
-          dashboards. Currently wrapping up my B.Tech at Saintgits — always shipping,
-          always learning.
-        </p>
       </div>
       <div class="about-stats">
         <div class="stat">
@@ -56,11 +50,6 @@
 
   .about-text p {
     color: var(--color-black-60);
-  }
-
-  .about-text strong {
-    color: var(--color-black);
-    font-weight: 600;
   }
 
   .about-stats {
