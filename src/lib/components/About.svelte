@@ -12,15 +12,10 @@
           internals to CI/CD pipelines.
         </p>
         <p>
-          As a <strong>Debian Package Maintainer</strong>, I maintain production-quality
-          software adhering to rigorous open-source standards. My <strong>9 hackathon
-          wins</strong> span AI/ML, cybersecurity, and edge computing — each pushing
-          me to ship working prototypes under tight constraints.
-        </p>
-        <p>
-          Currently pursuing my B.Tech in Computer Science at <strong>Saintgits College
-          of Engineering</strong>, I'm focused on building systems that matter — whether
-          it's a zero-trace kiosk OS, an EV dashboard, or an edge-AI surveillance system.
+          I maintain the <strong>noss</strong> RSS package for Debian and have won
+          <strong>9 hackathons</strong> building everything from kiosk OSes to EV
+          dashboards. Currently wrapping up my B.Tech at Saintgits — always shipping,
+          always learning.
         </p>
       </div>
       <div class="about-stats">
