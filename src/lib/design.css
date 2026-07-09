@@ -1,0 +1,193 @@
+/* ═══════════════════════════════════════════
+   Stanford Identity Design System
+   Source: identity.stanford.edu
+   ═══════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap');
+
+:root {
+  /* ── Primary Colors ── */
+  --color-cardinal:      #8C1515;
+  --color-cardinal-light:#B83A4B;
+  --color-cardinal-dark: #820000;
+  --color-white:         #FFFFFF;
+  --color-black:         #2E2D29;
+  --color-cool-grey:     #53565A;
+
+  /* Black tints */
+  --color-black-90: #43423E;
+  --color-black-80: #585754;
+  --color-black-70: #6D6C69;
+  --color-black-60: #767674;
+  --color-black-50: #979694;
+  --color-black-40: #ABABA9;
+  --color-black-30: #C0C0BF;
+  --color-black-20: #D5D5D4;
+  --color-black-10: #EAEAEA;
+
+  /* ── Accent Colors ── */
+  --color-palo-alto:     #175E54;
+  --color-palo-verde:    #279989;
+  --color-olive:         #8F993E;
+  --color-bay:           #6FA287;
+  --color-sky:           #4298B5;
+  --color-lagunita:      #007C92;
+  --color-poppy:         #E98300;
+  --color-spirited:      #E04F39;
+  --color-illuminating:  #FEDD5C;
+  --color-plum:          #620059;
+  --color-brick:         #651C32;
+  --color-archway:       #5D4B3C;
+  --color-stone:         #7F7776;
+  --color-fog:           #DAD7CB;
+
+  /* ── Typography ── */
+  --font-sans: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+
+  /* ── Sizing ── */
+  --max-width: 1080px;
+  --header-height: 64px;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+  --space-3xl: 8rem;
+
+  /* ── Radii ── */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* ── Transitions ── */
+  --transition: 150ms ease;
+}
+
+/* ── Reset ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-black);
+  background: var(--color-white);
+  line-height: 1.6;
+}
+
+/* ── Typography ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-black);
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); letter-spacing: -0.02em; }
+h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); letter-spacing: -0.01em; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.125rem; }
+
+p { margin-bottom: var(--space-md); }
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.section-label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-cardinal);
+  margin-bottom: var(--space-sm);
+}
+
+/* ── Container ── */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 var(--space-md);
+  }
+}
+
+/* ── Links ── */
+a {
+  color: var(--color-cardinal);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color var(--transition);
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+/* ── Section spacing ── */
+.section {
+  padding: var(--space-2xl) 0;
+}
+
+.section-header {
+  margin-bottom: var(--space-xl);
+}
+
+/* ── Dividers ── */
+hr {
+  border: none;
+  border-top: 1px solid var(--color-black-20);
+  margin: var(--space-2xl) 0;
+}
+
+/* ── Selection ── */
+::selection {
+  background: var(--color-cardinal);
+  color: var(--color-white);
+}
+
+/* ── Focus ── */
+:focus-visible {
+  outline: 2px solid var(--color-cardinal);
+  outline-offset: 2px;
+}
+
+/* ── Utility ── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Mobile nav overlay ── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
