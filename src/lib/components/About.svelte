@@ -7,9 +7,10 @@
     <div class="about-grid">
       <div class="about-text">
         <p class="serif about-lead">
-          I build systems that balance performance, simplicity, and real-world impact.
-          My approach is rooted in deep understanding of the full stack — from kernel
-          internals to CI/CD pipelines.
+          I build systems in Go — backend services, kiosk OSes,
+          computer vision pipelines. I maintain the <strong>noss</strong>
+          RSS package for Debian and ship projects from hackathons
+          that actually work.
         </p>
       </div>
       <div class="about-stats">

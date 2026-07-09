@@ -4,7 +4,7 @@
       role: 'Package Maintainer',
       org: 'Debian Project',
       period: 'Oct 2025 – Present',
-      description: 'Maintainer of the noss RSS/Atom feed aggregator package in the official Debian repository. Responsible for packaging, dependency management, and security updates following Debian policy.',
+      description: 'Package maintainer for the Debian Project. Ships the noss RSS/Atom feed aggregator — packaging, dependency updates, and security patches following Debian policy.',
     },
   ];
 </script>

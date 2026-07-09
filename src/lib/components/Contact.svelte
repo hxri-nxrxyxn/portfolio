@@ -7,8 +7,8 @@
     <div class="contact-grid">
       <div class="contact-info">
         <p class="contact-lead serif">
-          I'm always interested in interesting problems, collaboration, and
-          opportunities that push the boundaries of what's possible.
+          Open to software engineering roles and interesting problems.
+          Also available for open-source collaboration and hackathon mentoring.
         </p>
         <div class="contact-details">
           <div class="contact-item">

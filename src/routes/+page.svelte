@@ -13,14 +13,14 @@
 </script>
 
 <svelte:head>
-  <title>Harinarayan Maniyanthara Rajesh — Software Engineer & 9× Hackathon Winner</title>
-  <meta name="description" content="Product-focused software engineer building high-performance systems with Go, PostgreSQL, and Linux. Debian Package Maintainer. 9× hackathon winner." />
-  <meta name="keywords" content="Harinarayan Maniyanthara Rajesh, software engineer, Go developer, Debian maintainer, hackathon winner, portfolio, Svelte" />
+  <title>Harinarayan Maniyanthara Rajesh — Software Engineer</title>
+  <meta name="description" content="Builds backend services in Go and PostgreSQL. Maintains the noss package for Debian. 9 hackathon wins." />
+  <meta name="keywords" content="Harinarayan Maniyanthara Rajesh, software engineer, Go developer, Debian maintainer, hackathon winner" />
   <meta name="author" content="Harinarayan Maniyanthara Rajesh" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Harinarayan Maniyanthara Rajesh — Software Engineer" />
-  <meta property="og:description" content="Product-focused engineer building high-performance systems with Go, PostgreSQL, and Linux. 9× hackathon winner." />
+  <meta property="og:description" content="Builds backend services in Go and PostgreSQL. Maintains the noss package for Debian. 9 hackathon wins." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://hari.laddu.cc" />
   <meta property="og:image" content="/og-image.png" />
@@ -30,7 +30,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Harinarayan Maniyanthara Rajesh — Software Engineer" />
-  <meta name="twitter:description" content="Product-focused engineer. Go, PostgreSQL, Linux. Debian maintainer. 9× hackathon winner." />
+  <meta name="twitter:description" content="Backend services in Go and PostgreSQL. Debian package maintainer. 9 hackathon wins." />
   <meta name="twitter:image" content="/og-image.png" />
 
   <!-- Canonical -->

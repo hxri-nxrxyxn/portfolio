@@ -7,9 +7,9 @@
         <span class="hero-title-serif">Maniyanthara Rajesh</span>
       </h1>
       <p class="hero-subtitle">
-        Product-focused engineer building high-performance systems with
-        <strong>Go</strong>, <strong>PostgreSQL</strong>, and <strong>Linux</strong>.
-        <span class="highlight-count">9×</span> hackathon winner.
+        Builds backend services in <strong>Go</strong> and <strong>PostgreSQL</strong>.
+        Maintains the <strong>noss</strong> package for <strong>Debian</strong>.
+        Won <span class="highlight-count">9</span> hackathons.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View Projects</a>
