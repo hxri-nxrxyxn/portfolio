@@ -1,0 +1,29 @@
+# Harinarayan Maniyanthara Rajesh
+
+> Software engineer. Builds production-ready systems in Go — backend services, kiosk OSes, edge AI, computer vision. Maintains the noss RSS package for Debian. 9× hackathon winner.
+
+## About
+
+https://hari.laddu.cc — Personal portfolio and project showcase.
+
+## Projects
+
+- **SecureBox Vault**: Stateless kiosk OS with QEMU sandbox isolation and encrypted Cloudflare Tunnel transfers. Built to prevent sensitive data leakage.
+- **Kesla**: EV dashboard OS booting in <3s on Raspberry Pi. 3D gesture navigation via MediaPipe. systemd-optimized Chromium kiosk.
+- **Veekshan**: Natural-language search for surveillance footage. NLP-to-computer-vision pipeline running on local edge hardware.
+- **Mishran**: Multi-camera live production system. Syncs phone video feeds, AI shot selection via n8n-orchestrated agents.
+- **EyeTap**: Gaze-controlled interface using OpenCV/dlib at 30 FPS. Hands-free computer control via Android WebSocket streaming.
+
+## Experience
+
+- **Debian Project** (Oct 2025–Present): Package Maintainer for the noss RSS/Atom feed aggregator. Handles packaging, dependency updates, bug fixes, and security patches following Debian policy.
+
+## Social
+
+- GitHub: https://github.com/hxri-nxrxyxn
+- LinkedIn: https://linkedin.com/in/harinarayanmr
+- Email: hari@laddu.cc
+
+## Tech Stack
+
+Go, PostgreSQL, Linux, Docker, Systemd, QEMU, SvelteKit, TensorFlow, MediaPipe, OpenCV, Raspberry Pi, MQTT, Git, CI/CD, Cloudflare Tunnels.
