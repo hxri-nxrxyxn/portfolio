@@ -9,7 +9,9 @@
         <span class="footer-divider">·</span>
         <a href="https://linkedin.com/in/harinarayanmr" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
         <span class="footer-divider">·</span>
+        <!--email_off-->
         <a href="mailto:hari@laddu.cc" class="footer-link">Email</a>
+        <!--/email_off-->
       </div>
     </div>
   </div>

@@ -11,10 +11,12 @@
           Also available for open-source collaboration and hackathon mentoring.
         </p>
         <div class="contact-details">
+          <!--email_off-->
           <div class="contact-item">
             <span class="contact-label">Email</span>
             <a href="mailto:hari@laddu.cc" class="contact-value">hari@laddu.cc</a>
           </div>
+          <!--/email_off-->
           <div class="contact-item">
             <span class="contact-label">Phone</span>
             <a href="tel:+919995283835" class="contact-value">+91 99952 83835</a>
@@ -40,9 +42,11 @@
             Open to software engineering roles, open-source collaboration,
             and hackathon judging or mentoring.
           </p>
+          <!--email_off-->
           <a href="mailto:hari@laddu.cc" class="btn btn-primary contact-btn">
             Send an Email
           </a>
+          <!--/email_off-->
         </div>
       </div>
     </div>
