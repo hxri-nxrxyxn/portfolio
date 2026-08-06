@@ -1,5 +1,7 @@
 import type { RequestHandler } from './$types';
 
+export const prerender = true;
+
 export const GET: RequestHandler = async () => {
   const base = 'https://hari.laddu.cc';
   const now = new Date().toISOString().split('T')[0];
